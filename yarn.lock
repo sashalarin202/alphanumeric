@@ -1216,6 +1216,13 @@
     merge-source-map "^1.1.0"
     schema-utils "^2.7.0"
 
+"@ngneat/input-mask@4.1.0":
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/@ngneat/input-mask/-/input-mask-4.1.0.tgz#8f75199e5b9502d8a6585222c56867ec11ac658d"
+  integrity sha512-fmK6bv/aL7g/sEuDjV+5M5e13GxTDd3+OZiC+i5RjzayqS2pghCD91t4N9NkTZ049yGnEY92WQu5nNo8vxJuCw==
+  dependencies:
+    tslib "^2.0.0"
+
 "@ngtools/webpack@12.1.4":
   version "12.1.4"
   resolved "https://registry.yarnpkg.com/@ngtools/webpack/-/webpack-12.1.4.tgz#9f7ac5e26b366831b50558bf71dd6e1689743def"
@@ -1371,6 +1378,11 @@
   dependencies:
     "@types/minimatch" "*"
     "@types/node" "*"
+
+"@types/inputmask@5.0.0":
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/@types/inputmask/-/inputmask-5.0.0.tgz#aaf18692bb068b95462b0f25ebe290af63a9e915"
+  integrity sha512-wxAUOYlOmSBs8BMr9O+CEjq7WZtsxAKrSB9Lcza/55uW4M3UycOagM/X6ftZQkQf6Bao+mSb9gN+QnIKZN7wvA==
 
 "@types/jasmine@~3.6.0":
   version "3.6.11"
@@ -3927,6 +3939,11 @@ ini@2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/ini/-/ini-2.0.0.tgz#e5fd556ecdd5726be978fa1001862eacb0a94bc5"
   integrity sha512-7PnF4oN3CvZF23ADhA5wRaYEQpJ8qygSkbtTXWBeXWXmEVRXK+1ITciHWwHhsjv1TmW0MgacIv6hEi5pX5NQdA==
+
+inputmask@5.0.5:
+  version "5.0.5"
+  resolved "https://registry.yarnpkg.com/inputmask/-/inputmask-5.0.5.tgz#93af99c35fc108d590e9bbd3ec6cc9b9a2e7c2ed"
+  integrity sha512-9gqau4tb0oaxYiymLC43KU/aAXHVofya7ilGIxqKONbSh7LNKRHmpw6mhuH2D4yykRlcNhS9zI/FOsrAQmltQA==
 
 inquirer@8.1.1:
   version "8.1.1"

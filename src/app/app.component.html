@@ -1,25 +1,9 @@
-<form>
-  <div class="form-group">
-    <label for="exampleInputEmail1">With appAlpfanumeric direcrive</label>
-    <input type="text"
-    class="form-control"
-    id="exampleInputEmail1"
-    aria-describedby="emailHelp"
-    placeholder="Enter email"
-    [(ngModel)]="text"
-    name="smth"
-    appAlpfanumeric
-  >
-  </div>
-  <div class="form-group">
-    <label for="exampleInputPassword1">Without appAlpfanumeric direcrive</label>
+<div class="div">
+  <div class="div2">
     <input
-    type="text"
-    class="form-control"
-    id="exampleInputPassword1"
-    placeholder="Password"
-    [(ngModel)]="text"
-    name="smth"
-  >
+      [inputMask]="dateInputMask"
+      [formControl]="dateFC"
+      placeholder="____"
+  />
   </div>
-</form>
+</div>

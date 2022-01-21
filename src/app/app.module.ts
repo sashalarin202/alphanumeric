@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
+import { InputMaskModule } from '@ngneat/input-mask';
 import { AlpfanumericDirective } from './alpfanumeric.directive';
 import { AppComponent } from './app.component';
 
@@ -13,6 +14,8 @@ import { AppComponent } from './app.component';
   imports: [
     BrowserModule,
     FormsModule,
+    InputMaskModule,
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

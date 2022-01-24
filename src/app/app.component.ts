@@ -10,10 +10,7 @@ import { createMask } from '@ngneat/input-mask';
 })
 export class AppComponent {
   dateInputMask = createMask<void>({
-    // mask: "****",\
-    // placeholder:"fsas",
-    // mask:"*{1,3}@*{1,2}",
-    
+    mask: "****",
     definitions:{
       '*': {
         validator: "[0-9A-Za-z]",
